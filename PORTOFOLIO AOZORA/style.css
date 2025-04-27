@@ -1,0 +1,121 @@
+/* Reset dasar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #7c7c7cde;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Bagian Header */
+  .header {
+    background: linear-gradient(to bottom, rgba(75, 0, 130, 0.8), rgba(106, 13, 173, 0.8)), url('iman3.jpg') no-repeat center/cover;
+    padding: 70px 20px;
+    color: white;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info h1 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+    color: #ddd;
+  }
+  
+  /* Tombol Navigasi */
+  .button-group {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #6a0dad;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    background-color: #4b0082;
+  }
+  
+  /* Daftar Link */
+  .links {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .link {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsivitas */
+  @media (max-width: 768px) {
+    .header {
+      padding: 50px 15px;
+    }
+  
+    .profile-picture {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .profile-info h1 {
+      font-size: 24px;
+    }
+  
+    .profile-info p {
+      font-size: 16px;
+    }
+  
+    .button {
+      padding: 10px 30px;
+      font-size: 14px;
+    }
+  
+    .link {
+      font-size: 16px;
+      padding: 15px;
+    }
+  }
+  
+
+  
