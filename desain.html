@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gelombang Otak dan Frekuensi</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #17ceee, #010c0c);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar {
+      background: #2c3e50;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      flex: 1;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s, background 0.3s;
+    }
+    .section:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .section h2 {
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+    .section p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .back-button {
+      display: inline-block;
+      margin: 30px 0 10px;
+      padding: 10px 20px;
+      background: #ffcc00;
+      color: #000;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .back-button:hover {
+      background: #ffaa00;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      background: #2c3e50;
+      color: white;
+    }
+
+    /* Responsif untuk HP */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+      }
+      .navbar a {
+        margin: 5px 0;
+      }
+      .container {
+        padding: 10px;
+      }
+      .section {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">Kembali Dashboard</a>
+    </div>
+    
+  </nav>
+
+  <div class="container">
+    <div class="section" style="background: linear-gradient(to right, #ffeb3b, #f57c00);">
+      <h2>Gelombang Alpha</h2>
+      <p>Rileks dan waspada, hadir saat mata tertutup dan dalam keadaan tenang.</p>
+      <p><strong>Frekuensi: 8-14 Hz</strong></p>
+    </div>
+    <div class="section" style="background: linear-gradient(to right, #4caf50, #009688);">
+      <h2>Gelombang Beta</h2>
+      <p>Terkait dengan logika, pemikiran aktif, dan kewaspadaan tinggi.</p>
+      <p><strong>Frekuensi: 14-40 Hz</strong></p>
+    </div>
+    <div class="section" style="background: linear-gradient(to right, #5e5e5e, #2b2b2b);">
+      <h2>Gelombang Gamma</h2>
+      <p>Pemrosesan informasi tingkat tinggi dan lonjakan wawasan.</p>
+      <p><strong>Frekuensi: 40-100 Hz</strong></p>
+    </div>
+    <div class="section" style="background: linear-gradient(to right, #9c27b0, #6a1b9a);">
+      <h2>Gelombang Delta</h2>
+      <p>Terkait dengan tidur dalam dan ketidaksadaran.</p>
+      <p><strong>Frekuensi: 0.5-4 Hz</strong></p>
+    </div>
+    <div class="section" style="background: linear-gradient(to right, #ff9800, #ff5722);">
+      <h2>Gelombang Theta</h2>
+      <p>Berhubungan dengan kreativitas, intuisi, dan meditasi mendalam.</p>
+      <p><strong>Frekuensi: 4-8 Hz</strong></p>
+    </div>
+    <div class="section" style="background: linear-gradient(to right, #00bcd4, #009688);">
+      <h2>Gelombang Chakra</h2>
+      <p>Membantu keseimbangan energi dan penyembuhan tubuh.</p>
+      <p><strong>Frekuensi: 174-963 Hz</strong></p>
+    </div>
+    <div class="section" style="background: linear-gradient(to right, #673ab7, #512da8);">
+      <h2>Gelombang Isochronic</h2>
+      <p>Meningkatkan fokus, energi, dan konsentrasi.</p>
+      <p><strong>Frekuensi: 14-22 Hz</strong></p>
+    </div>
+
+    <a href="index.html" class="back-button">Kembali</a>
+  </div>
+
+</script>
+
+<footer style="text-align: center; padding: 15px; background-color: #34495e; color: white; font-size: 14px;">
+  &copy; 2024 Chairul Iman. Semua hak dilindungi.
+</footer>
+
+</body>
+</html>
+
+

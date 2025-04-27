@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualisasi Gelombang Otak</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 32px;
+      color: #2c3e50;
+    }
+    p.description {
+      max-width: 700px;
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .video-card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      max-width: 850px;
+      width: 100%;
+    }
+    video {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .back-button {
+      margin-top: 25px;
+      padding: 10px 20px;
+      background-color: #1abc9c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .back-button:hover {
+      background-color: #16a085;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #34495e;
+      color: white;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 24px;
+      }
+      p.description {
+        font-size: 16px;
+      }
+      .back-button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Visualisasi Frekuensi Gelombang Otak</h1>
+    <p class="description">
+      Video ini memperlihatkan bagaimana gelombang otak seperti Alpha, Beta, Theta, dan Delta bekerja dalam frekuensi tertentu. 
+      Setiap gelombang berperan penting dalam aktivitas pikiran dan kondisi tubuh manusia. 
+      Yuk simak lebih dalam melalui visualisasi berikut!
+    </p>
+
+    <div class="video-card">
+      <video controls>
+        <source src="Macam-macam Gelombang Otak2.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video tag.
+      </video>
+      <p>virzal animation</p>
+
+      <button class="back-button" onclick="window.history.back()">Kembali</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2024 Chairul Iman. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
